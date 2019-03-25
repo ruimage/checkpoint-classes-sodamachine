@@ -1,7 +1,7 @@
 describe("SodaMachine", () => {
   let pepsi, mountainDew, cokeZero, secondPepsi, sodaMachine;
   beforeEach(() => {
-    pepsi = new Soda({brand: 'Pepsi', price: 0.65, age: 1});
+    pepsi = new Soda({brand: 'Pepsi', price: 0.65});
     mountainDew = new Soda({brand: 'Mountain Dew', price: 0.75});
     cokeZero = new Soda({brand: 'Coke Zero', price: 1.0});
     secondPepsi = new Soda({brand: 'Pepsi', price: 0.65});
