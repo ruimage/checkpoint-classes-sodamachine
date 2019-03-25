@@ -1,7 +1,7 @@
 describe("Soda", () => {
   let pepsi;
   beforeEach(() => {
-    pepsi = new Soda({brand: 'Pepsi', price: 0.65, age: 1});
+    pepsi = new Soda({brand: 'Pepsi', price: 0.65});
   });
 
   it("has a brand", () => {
