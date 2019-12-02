@@ -1,4 +1,4 @@
-Checkpoint Challenge #2: Работа с ООП и Тестами
+# Checkpoint Challenge #2: Работа с ООП и Тестами
 
 
 ## Введение
