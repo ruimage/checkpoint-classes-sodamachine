@@ -3,8 +3,10 @@ module.exports = {
     browser: true,
     commonjs: true,
     es6: true,
+    jasmine: true,
     node: true,
   },
+  plugins: ['jasmine'],
   extends: [
     'airbnb-base',
   ],
