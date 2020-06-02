@@ -16,7 +16,7 @@ jobs:
       - name: Lint
         run: npm run lint
 
-  check Soda:
+  SodaSpec:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -27,7 +27,7 @@ jobs:
       - name: Run SodaSpec
       run: npx jasmine spec/SodaSpec.js
 
-  check SodaMachine:
+  SodaMachineSpec:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
