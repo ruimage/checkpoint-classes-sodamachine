@@ -1,18 +1,17 @@
 class SodaMachine {
-  constructor(args={}) {
+  constructor(args = {}) {
     this.sodas = args.sodas;
     this.cash = args.cash;
   }
 
   currentInventoryCount() {
-
   }
 
   findSoda(sodaBrand) {
-
   }
 
   sell(sodaBrand) {
-
   }
 }
+
+module.exports = { SodaMachine };
