@@ -1,0 +1,17 @@
+{
+  "name": "checkpoint2",
+  "version": "1.0.0",
+  "main": "soda.js",
+  "scripts": {
+    "lint": "eslint ./*.js",
+    "test": "npx jasmine --stop-on-failure=true --fail-fast=true --random=false --reporter=jasmine-console-reporter spec/*.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jasmine": "^4.1.1",
+    "jasmine": "^3.5.0",
+    "jasmine-console-reporter": "^3.1.0"
+  }
+}
