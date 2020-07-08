@@ -35,7 +35,7 @@ describe('SodaMachine', () => {
     });
   });
 
-  describe('function sodaBrand', () => {
+  describe('function sell', () => {
     describe('when the soda is not available to be sold', () => {
       it('returns undefined', () => {
         expect(sodaMachine.sell('Surge')).toBeUndefined();
