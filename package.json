@@ -4,14 +4,13 @@
   "main": "soda.js",
   "scripts": {
     "lint": "eslint ./*.js",
-    "test": "npx jasmine --stop-on-failure=true --fail-fast=true --random=false --reporter=jasmine-console-reporter spec/*.js"
+    "test": "jest spec/*.js -i"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jasmine": "^4.1.1",
-    "jasmine": "^3.6.1",
-    "jasmine-console-reporter": "^3.1.0"
+    "eslint-plugin-jest": "^24.1.0",
+    "jest": "^26.6.1"
   }
 }

@@ -25,7 +25,7 @@ jobs:
       - name: install
         run: npm ci 
       - name: Run SodaSpec
-        run: npx jasmine spec/SodaSpec.js
+        run: npx jasmine spec/Soda.spec.js
 
   SodaMachineSpec:
     runs-on: ubuntu-latest
@@ -36,4 +36,4 @@ jobs:
       - name: install
         run: npm ci 
       - name: Run SodaMachineSpec
-        run: npx jasmine spec/SodaMachineSpec.js
+        run: npx jasmine spec/SodaMachine.spec.js
