@@ -36,9 +36,13 @@ describe('SodaMachine', () => {
   });
 
   describe('function sell', () => {
+    it('always returns undefined', () => {
+      expect(sodaMachine.sell('Surge')).toBeUndefined();
+    });
+
     describe('when the soda is not available to be sold', () => {
-      it('returns undefined', () => {
-        expect(sodaMachine.sell('Surge')).toBeUndefined();
+      it('works fine', () => {
+        expect(() => sodaMachine.sell('Surge')).not.toThrow();
       });
     });
 
