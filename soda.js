@@ -5,5 +5,4 @@ class Soda {
   }
 }
 
-
 module.exports = { Soda };
