@@ -9,7 +9,7 @@ class SodaMachine {
   }
 
   findSoda(sodaBrand) {
-    return this.sodas.filter((el) => el.brand === sodaBrand).pop();
+    return this.sodas.find((el) => el.brand === sodaBrand);
   }
 
   sell(sodaBrand) {
